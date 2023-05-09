@@ -32,5 +32,105 @@
 
 /* Base styles */
 body {
+  background-color: var(--cream);
   font-size: 14px;
+}
+
+p {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+}
+
+/* Utility Styles */
+.container {
+  margin-inline: auto;
+  width: 85%;
+}
+
+/* Mobile Styles */
+/* Main styles */
+main {
+  background-color: var(--white);
+  width: 93%;
+  margin-inline: auto;
+  margin-block: 2rem;
+  border-radius: 10px;
+}
+
+main img.pef {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+
+/* Aside styles */
+aside {
+  padding-block: 1.5rem;
+}
+
+p.head {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h1 {
+  color: var(--very-dark-blue);
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+  font-size: 2.33rem;
+  line-height: 2.2rem;
+  margin-block: 1rem;
+}
+
+p.info {
+  line-height: 1.2rem;
+  font-size: 1.01rem;
+}
+
+p.price {
+  font-family: 'Montserrat', serif;
+  margin-block: 1.5rem;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  color: var(--dark-cyan);
+  font-weight: 700;
+}
+
+p.price span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: var(--dark-grayish-blue);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+  color: var(--white);
+  border-radius: 8px;
+  padding-block: 1rem;
+  border: none;
+  background-color: var(--dark-cyan);
+  width: 100%;
+}
+
+/* Footer Styles */
+address {
+  font-style: normal;
+  font-family: 'Fraunces', sans-serif;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
 }
